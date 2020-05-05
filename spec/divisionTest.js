@@ -11,3 +11,14 @@ describe("Testing division testing", ()=>{
     })
 })
 
+
+describe("Testing division testing", ()=>{
+    let a = 5;
+    let b = 5;
+    let c = a/b;
+    let d;
+    it("The denominator can not be zero", ()=>{
+        expect(c).toEqual(1);
+    })
+})
+
